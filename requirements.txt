@@ -1,0 +1,7 @@
+evdev==1.6.0
+numpy==1.22.4
+opencv-python==4.5.5.64
+Pillow==9.1.1
+pynput==1.7.6
+python-xlib==0.31
+six==1.16.0
