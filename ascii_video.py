@@ -40,8 +40,8 @@ def on_release(key):
 def resize(image) -> Image.Image:
     original_width, original_height = image.size
     aspect_ratio = original_width / original_height
-    new_height = 150
-    new_width= 150
+    new_height = 100
+    new_width = 150
     # new_width = int(new_height * aspect_ratio)
     return image.resize((new_width, new_height), Image.LANCZOS)
 
